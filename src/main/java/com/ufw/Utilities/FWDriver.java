@@ -7,13 +7,13 @@ import com.ufw.PageObjects.*;
 
 public class FWDriver extends BasePage{
 
-	public AppLoginPage AppLoginPage()
+	public ZohoLoginPage ZohoLoginPage()
 	{
-		return (AppLoginPage) getPage(AppLoginPage.class);
+		return (ZohoLoginPage) getPage(ZohoLoginPage.class);
 	}
-	public AppHomePage AppHomePage()
+	public ZohoAppPage ZohoAppPage()
 	{
-		return (AppHomePage) getPage(AppHomePage.class);
+		return (ZohoAppPage) getPage(ZohoAppPage.class);
 	}
 	
 	
