@@ -6,10 +6,10 @@ public interface AutoConfigConstants {
 	
 	// SMTP SERVER AND EMAIL CONFIGURATION
 	
-	public static final String SERVER = "192.96.206.47";  //25, 465
-	public static final String FROM = "dehury.dhananjaya@gmail.com";
-	public static final String PASSWORD = "dhananjaya#6391";
-	public static final String[] TO = {"dehury.dhananjaya@gmail.com", "dhananjaya.dehury@gmail.com"};
+	public static final String SERVER = "smtp.gmail.com";  //25, 465
+	public static final String FROM = "selenium.automation81@gmail.com";
+	public static final String PASSWORD = "Auto@1234";
+	public static final String[] TO = {"selenium.automation81@gmail.com"};
 	public static final String SUBJECT = "Unified Framework Extent Report";
 	
 	public static final String MESSAGE_BODY = "TestMessage";

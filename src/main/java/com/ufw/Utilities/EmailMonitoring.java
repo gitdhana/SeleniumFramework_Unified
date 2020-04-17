@@ -37,13 +37,23 @@ public class EmailMonitoring
 		boolean debug = false;
 		Properties props = new Properties();
 		props.put("mail.smtp.starttls.enable", "true");
-		//		props.put("mail.smtp.EnableSSL.enable","true");
+				
+		
+		//This below code is to send email via GMAIL...Inside company network,its not required
+				props.put("mail.smtp.EnableSSL.enable","true");
+				
+				
+		
 		props.put("mail.smtp.auth", "true");
-
 		props.put("mail.smtp.host", mailServer); 
 		props.put("mail.debug", "true");
 
-		//	     props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");   
+		
+		//This below code is to send email via GMAIL...Inside company network,its not required
+			     props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");  
+		
+			     
+			     
 		props.setProperty("mail.smtp.socketFactory.fallback", "false");   
 		props.setProperty("mail.smtp.port", "465");   
 		props.setProperty("mail.smtp.socketFactory.port", "465"); 

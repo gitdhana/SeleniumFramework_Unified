@@ -1,0 +1,4 @@
+INFO    2020-04-18 01:02:42,137 [main] com.ufw.Base.MasterTestClass  - Config properties file loaded
+INFO    2020-04-18 01:02:42,351 [TestNG-tests-1] com.ufw.TestScripts.ZohoTestScripts  - Inside Login page
+INFO    2020-04-18 01:02:46,038 [TestNG-tests-1] com.ufw.Base.MasterTestClass  - Driver Initialized !!!
+INFO    2020-04-18 01:03:04,756 [TestNG-tests-1] com.ufw.Base.MasterTestClass  - Test Execution Completed !!!

@@ -5,22 +5,23 @@
 
 	<listeners>
 
-		<listener
-			class-name="com.w2a.zoho.ExtentListeners.ExtentListeners"></listener>
+		<listener class-name="com.ufw.Listeners.CustomListeners"></listener>
+		<listener class-name="com.ufw.Listeners.FWTransformer"></listener>
+		<!-- <listener class-name="com.ufw.Listeners.RetryAnalyzer"></listener> -->
 
 	</listeners>
 
 	<test name="Test1">
 		<classes>
-			<class name="com.w2a.zoho.testcases.LoginTest" />
+			<class name="com.ufw.TestScripts.ZohoTestScripts">
+				<methods>
+					<include name="LoginTest" />
+				</methods>
+			</class>
 		</classes>
 	</test> <!-- Test -->
-	
-	<test name="Test2">
-		<classes>
-			<class name="com.w2a.zoho.testcases.ValidateCRMTest" />
-		</classes>
-	</test> <!-- Test -->
+
+
 
 
 </suite> <!-- Suite -->
